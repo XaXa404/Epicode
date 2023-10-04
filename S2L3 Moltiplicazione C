@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main () {
+	
+	int primo_numero, secondo_numero, moltiplicazione;
+	
+	printf ("inserici il primo numero:\n");
+	scanf ("%d", &primo_numero);
+	
+	printf ("inserici il secondo_numero:\n");
+	scanf ("%d", &secondo_numero);
+	
+	moltiplicazione = primo_numero * secondo_numero;
+	
+	printf ("Il risultato è: %d\n", moltiplicazione);
+	
+	return 0;
+	
+}
