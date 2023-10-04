@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main () {
+	
+	int primo_numero; secondo_numero;
+	float media;
+	
+	printf ("inserisci il primo numero: ");
+	scanf ("%d", &primo_numero);
+	
+	printf ("inserici il secondo numero ");
+	scanf ("%d", &secondo_numero);
+	
+	media = (float)(primo_numero + secondo_numero) / 2;
+	printf("La media aritmetica è: %f\n",  media);
+	
+	return 0;
+	
+}
