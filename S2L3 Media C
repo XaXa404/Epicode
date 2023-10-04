@@ -2,7 +2,7 @@
 
 int main () {
 	
-	int primo_numero; secondo_numero;
+	int primo_numero, secondo_numero;
 	float media;
 	
 	printf ("inserisci il primo numero: ");
