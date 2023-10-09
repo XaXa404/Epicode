@@ -1,0 +1,36 @@
+import math
+
+def calcolo_area_figura_geometrica():
+    while True:
+        print("Il programma calcola l'area di una figura geometrica")
+        print("Scegli la figura geometrica")
+        print("1 - Quadrato")
+        print("2 - Cerchio")
+        print("3 - Rettangolo")
+        print("4 - Esci")
+        
+        scelta = int(input(">>> "))
+        
+        if scelta == 1:
+            print("Hai scelto di calcolare l'area del quadrato")
+            lato = float(input("Inserisci la lunghezza del lato del quadrato: "))
+            area_quadrato = lato * lato
+            print("L'area del quadrato è:", area_quadrato)
+        elif scelta == 2:
+            print("Hai scelto di calcolare la circonferenza del cerchio")
+            raggio = float(input("Inserisci il raggio del cerchio: "))
+            circonferenza = 2 * math.pi * raggio
+            print("La circonferenza del cerchio è:", circonferenza)
+        elif scelta == 3:
+            print("Hai scelto di calcolare l'area del rettangolo")
+            base = float(input("Inserisci la base del rettangolo: "))
+            altezza = float(input("Inserisci l'altezza del rettangolo: "))
+            area_rettangolo = base * altezza
+            print("L'area del rettangolo è:", area_rettangolo)
+        elif scelta == 4:
+            print("Arrivederci!")
+            break
+        else:
+            print("Inserire una scelta valida")
+
+calcolo_area_figura_geometrica()
